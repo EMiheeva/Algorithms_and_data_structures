@@ -19,7 +19,7 @@ int mediana (int a, int b, int c)
 
 
 void QuickSort(int mas[], int left, int right) {
-	if (left == right) return; //как объяснить этот момент?
+	if (left == right) return; 
 	
 	int pivot = mediana(mas[left], mas[right], mas[(right+left)/2]); //поиск опорного элемента с помощью медианы трёх
                                                                    //гарантированный способ нахождения
@@ -39,6 +39,8 @@ void QuickSort(int mas[], int left, int right) {
 		swap(mas[i++], mas[j--]); //основная суть сортировки
 	}
 	
+	
+	//Разбиение Хоара
 	QuickSort(mas, left, j);
 	
 	QuickSort(mas, j + 1, right);
