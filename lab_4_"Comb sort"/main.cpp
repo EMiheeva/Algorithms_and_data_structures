@@ -46,7 +46,7 @@ void CombSort(int mas[], int n)
 
 int main()
 {
-	auto mass = new int[N];
+auto mass = new int[N];
 	
   cout << "Введите 10 элементов типа int вашего массив: " <<endl;
     
