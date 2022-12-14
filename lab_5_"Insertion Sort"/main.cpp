@@ -26,7 +26,7 @@ int main()
 {
 	auto mass = new int[N];
 	
-    cout << "Введите 10 элементов типа int вашего массив: " <<endl;
+    cout << "Введите 10 элементов типа int вашего массива: " <<endl;
     
     for (int k = 0; k < N; k++) {
 		cin >> mass[k];
