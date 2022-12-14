@@ -4,8 +4,8 @@ using namespace std;
 
 class Hash
 {
-	int BUCKET; // No. of buckets
-  list<int>* table; // Указатель на массив, содержащий ячейки
+	int BUCKET;
+  list<int>* table; // Указатель на массив, содержащий BUCKET
 
 public:
 	Hash(int V); // конструктор
