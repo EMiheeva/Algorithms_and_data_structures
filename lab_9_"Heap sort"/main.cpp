@@ -7,7 +7,7 @@ const int N = 10;
 void heapify(int mas[], int N, int root)
 {
  
-    int largest = root;//root = 0!
+    int largest = root;//root = 0
     int left = 2*root + 1;
     int right = 2*root + 2;
     //основное правило его построения, заключается в том 
